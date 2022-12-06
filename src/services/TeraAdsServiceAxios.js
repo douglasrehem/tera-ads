@@ -5,7 +5,6 @@ class TeraAdsService {
 
         return axios.get('https://tisdtamgspxhre7xqgcezvkozq0uapoc.lambda-url.us-east-1.on.aws/')
             .then(resp => {
-            console.log(resp.data);
             return resp.data.ads;
         });
     }
