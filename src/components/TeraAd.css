@@ -1,0 +1,27 @@
+.TeraAd {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.TeraAdImageContainer {
+    width: 200px;
+    height: 200px;
+    background-color: darkgrey;
+}
+
+.TeraAdImageContainer img{
+   height: 100%;
+}
+
+.TeraAdTitle {
+    font-weight: bold;
+    color: black;
+}
+
+.TeraAdPrice {
+
+    color: black;
+}
+
